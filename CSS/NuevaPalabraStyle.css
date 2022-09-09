@@ -1,0 +1,93 @@
+body {
+    background: #F3F5FC;
+}
+
+header {
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+main {
+    width: 100%;
+}
+
+.text {
+    width: 20%;
+    height: 30px;
+    border: none;
+    margin-left: 28%;
+    margin-top: 5%;
+    background: #F3F5FC;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+}
+
+.text:focus {
+    outline: auto;
+}
+
+.text::placeholder {
+    color: #0A3871;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%
+}
+
+p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    margin-left: 28%;
+    margin-top: 13%;
+    color: #495057;
+
+    opacity: 0.8;
+}
+
+.guardar {
+    margin-left: 28%;
+    width: 332px;
+    height: 67px;
+    background: #0A3871;
+    border-radius: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.guardar:hover{
+    background:  #173253;
+}
+
+.cancelar {
+    margin-left: 2%;
+    width: 332px;
+    height: 67px;
+    background: #E5E5E5;
+    border-radius: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
+    cursor: pointer;
+}
+
+.cancelar:hover{
+    background: #efe6e6;
+}

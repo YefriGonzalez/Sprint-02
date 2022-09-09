@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ahorcado</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../CSS/GameStyle.css">
+</head>
+
+<body>
+    <header>
+        <img src="../imagenes/logo.png" alt="Logo de alura">
+    </header>
+    <main>
+        <div class="canvasClass">
+            <canvas id="canvas" width="100%" height="height: 275px;"></canvas>
+        </div>
+        <div id="texto"></div>
+        <div id="campos"></div>
+        <br>
+        <div id="textoUsado"><p id="advertencia"></p></div>
+        <div class="mensaje"><label id="mensaje"></label> </div>
+    </main>
+    <input class="newGame" onclick="startGame()" type="button" value="Nuevo Juego"> <a href="../index.html"><input
+            class="cancel" value="Desistir" type="button"></a>
+</body>
+<script src="../JS/Game.js" onload="startGame()"></script>
+<script>
+    
+</script>
+
+</html>

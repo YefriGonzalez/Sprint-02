@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ahorcado | Nueva Palabra</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../CSS/NuevaPalabraStyle.css">
+    </head>
+    <body>
+        <header>
+            <img src="../imagenes/logo.png" alt="Logo de alura">
+        </header>
+        <main>
+            <form action="">
+                <input id="nueva" class="text" type="text" placeholder="Ingrese una palabra"></input>
+                <p><img src="../imagenes/admiracion.png" alt="Signo de admiracion"> Máx. de 8 letras</p>
+                <input onclick="enviarPalabra()" class="guardar" type="button" value="Guardar y empezar"><a href="../index.html"><input class="cancelar" type="button" value="Cancelar"></a>
+            </form>
+        </main>
+    </body>
+    <script src="../JS/Game.js"></script>
+</html>

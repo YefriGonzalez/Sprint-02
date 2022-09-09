@@ -1,0 +1,125 @@
+body {
+    background: #F3F5FC;
+    text-align: center;
+}
+
+header {
+    text-align: left;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+main {
+    width: 100%;
+    height: 600px;
+    text-align: center;
+}
+
+.newGame {
+    width: 332px;
+    height: 67px;
+    background: #0A3871;
+    border-radius: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.newGame:hover {
+    background: #173253;
+}
+
+.cancel {
+    width: 332px;
+    height: 67px;
+    background: #E5E5E5;
+    border-radius: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #0A3871;
+    cursor: pointer;
+}
+
+.cancel:hover {
+    background: #efe6e6;
+}
+
+
+
+#advertencia {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    margin-top: 1%;
+    color: #495057;
+    opacity: 0.8;
+}
+
+.letter {
+    visibility: visible;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    color: #0A3871;
+    padding: 4px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.camp {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    color: #0A3871;
+    border-radius: 8px;
+}
+
+.usado {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    color: #495057;
+}
+
+.mensaje {
+    position: absolute;
+    left: 65%;
+    top: 40%;
+}
+
+#mensaje {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: red;
+}
+
+.canvasClass {
+    width: 100%;
+    height: 300px;
+    background: #F3F5FC;
+}
+
+#canvas {
+    color: #0A3871;
+    height: 275px;
+
+}
